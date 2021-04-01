@@ -9,3 +9,9 @@ Tested on Catalina and Big Sur.
 2. Stop following this guide on mounting EFI partition.
 3. Use 'EFI' folder from this repository instead of building it up from scratch. Just copy it to your EFI partition.
 4. Follow [this guide](https://dortania.github.io/OpenCore-Install-Guide/config-laptop.plist/broadwell.html) to set 'PlatformInfo' individually for your PC based on 'MacBookPro12,1' ProductName.
+
+# Tips
+
+### Reset NVRAM before first installation or OC upgrade
+
+https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html#clean-out-old-attempts
